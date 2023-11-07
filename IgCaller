@@ -171,7 +171,7 @@ parser.add_argument('-all', '--run_all_analysis',
 					dest = "run_all_analysis",
 					action = "store",
 					default = "False",
-					help = "run all [default=False]")
+					help = "If set to True, will additionally analyse IGH, IGL, IGK, CSR rearrangements [default=False]")
 
 
 options = parser.parse_args()
